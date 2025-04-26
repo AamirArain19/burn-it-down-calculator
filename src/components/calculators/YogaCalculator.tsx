@@ -1,6 +1,5 @@
-
 import React, { useState } from 'react';
-import { Yoga } from 'lucide-react';
+import { Smile } from 'lucide-react';
 import { calculateCalories, MET } from '../../utils/calculatorUtils';
 import CalculatorLayout from '../CalculatorLayout';
 
@@ -12,7 +11,6 @@ const YogaCalculator = () => {
   const [calories, setCalories] = useState<number | null>(null);
 
   const calculateYogaCalories = () => {
-    // Get MET value based on yoga/pilates type
     let met;
     
     switch (practiceType) {
@@ -179,7 +177,7 @@ const YogaCalculator = () => {
   return (
     <CalculatorLayout 
       title="Yoga & Pilates Calorie Calculator" 
-      icon={<Yoga className="h-8 w-8 text-primary" />}
+      icon={<Smile className="h-8 w-8 text-primary" />}
       content={yogaContent}
     >
       <form onSubmit={handleSubmit} className="calculator-form">

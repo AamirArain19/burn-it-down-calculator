@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Swimming } from 'lucide-react';
+import { Waves } from 'lucide-react';
 import { calculateCalories, MET } from '../../utils/calculatorUtils';
 import CalculatorLayout from '../CalculatorLayout';
 
@@ -128,7 +128,7 @@ const SwimmingCalculator = () => {
   return (
     <CalculatorLayout 
       title="Swimming Calorie Calculator" 
-      icon={<Swimming className="h-8 w-8 text-primary" />}
+      icon={<Waves className="h-8 w-8 text-primary" />}
       content={swimmingContent}
     >
       <form onSubmit={handleSubmit} className="calculator-form">

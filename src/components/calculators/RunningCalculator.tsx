@@ -1,6 +1,5 @@
-
 import React, { useState } from 'react';
-import { Running as RunningIcon } from 'lucide-react';
+import { PersonRunning } from 'lucide-react';
 import { calculateCalories, MET } from '../../utils/calculatorUtils';
 import CalculatorLayout from '../CalculatorLayout';
 
@@ -13,7 +12,6 @@ const RunningCalculator = () => {
   const [calories, setCalories] = useState<number | null>(null);
 
   const calculateRunningCalories = () => {
-    // Get base MET value from running intensity
     let baseMet;
     if (isTreadmill) {
       baseMet = MET.running.treadmill;
@@ -110,7 +108,7 @@ const RunningCalculator = () => {
   return (
     <CalculatorLayout 
       title="Running Calorie Calculator" 
-      icon={<RunningIcon className="h-8 w-8 text-primary" />}
+      icon={<PersonRunning className="h-8 w-8 text-primary" />}
       content={runningContent}
     >
       <form onSubmit={handleSubmit} className="calculator-form">
@@ -208,4 +206,3 @@ const RunningCalculator = () => {
 };
 
 export default RunningCalculator;
-

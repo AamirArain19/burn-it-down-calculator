@@ -1,11 +1,12 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import CalculatorCard from '../components/CalculatorCard';
 import { 
-  Walking as WalkingIcon, 
-  Running as RunningIcon, 
+  PersonStanding as WalkingIcon, 
+  PersonRunning as RunningIcon, 
   Bicycle as CycleIcon, 
   Waves as SwimmingIcon, 
   Dumbbell, 
