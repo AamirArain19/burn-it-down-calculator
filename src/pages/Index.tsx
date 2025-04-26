@@ -1,17 +1,16 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import CalculatorCard from '../components/CalculatorCard';
 import { 
-  Walking, 
-  Running, 
-  Bike, 
-  Swimming, 
+  Walking as WalkingIcon, 
+  Running as RunningIcon, 
+  Bicycle as CycleIcon, 
+  Waves as SwimmingIcon, 
   Dumbbell, 
-  Activity, 
-  Yoga, 
+  Activity as ActivityIcon, 
+  Smile as YogaIcon, 
   Home, 
   Mountain,
   Calculator 
@@ -22,25 +21,25 @@ const Index = () => {
     {
       title: 'Walking Calorie Calculator',
       description: 'Calculate calories burned while walking based on speed, incline, and weight.',
-      icon: Walking,
+      icon: WalkingIcon,
       path: '/walking',
     },
     {
       title: 'Running Calorie Calculator',
       description: 'Compare treadmill vs. outdoor running calorie burn based on pace and terrain.',
-      icon: Running,
+      icon: RunningIcon,
       path: '/running',
     },
     {
       title: 'Cycling Calorie Calculator',
       description: 'Estimate calories burned cycling on roads and stationary bikes.',
-      icon: Bike,
+      icon: CycleIcon,
       path: '/cycling',
     },
     {
       title: 'Swimming Calorie Calculator',
       description: 'Calculate calorie burn for different swimming strokes and intensities.',
-      icon: Swimming,
+      icon: SwimmingIcon,
       path: '/swimming',
     },
     {
@@ -52,13 +51,13 @@ const Index = () => {
     {
       title: 'HIIT vs. Steady-State Calculator',
       description: 'Compare calorie burn between intense intervals and continuous cardio.',
-      icon: Activity,
+      icon: ActivityIcon,
       path: '/hiit',
     },
     {
       title: 'Yoga & Pilates Calorie Calculator',
       description: 'Estimate calories burned during various yoga and pilates practices.',
-      icon: Yoga,
+      icon: YogaIcon,
       path: '/yoga',
     },
     {
