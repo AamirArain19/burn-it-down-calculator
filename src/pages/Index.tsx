@@ -6,7 +6,7 @@ import Footer from '../components/Footer';
 import CalculatorCard from '../components/CalculatorCard';
 import { 
   PersonStanding as WalkingIcon, 
-  PersonRunning as RunningIcon, 
+  Run as RunningIcon, 
   Bike as CycleIcon, 
   Waves as SwimmingIcon, 
   Dumbbell, 
