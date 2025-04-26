@@ -1,5 +1,6 @@
+
 import React, { useState } from 'react';
-import { Running } from 'lucide-react';
+import { PersonRunning } from 'lucide-react';
 import { calculateCalories, MET } from '../../utils/calculatorUtils';
 import CalculatorLayout from '../CalculatorLayout';
 
@@ -108,7 +109,7 @@ const RunningCalculator = () => {
   return (
     <CalculatorLayout 
       title="Running Calorie Calculator" 
-      icon={<Running className="h-8 w-8 text-primary" />}
+      icon={<PersonRunning className="h-8 w-8 text-primary" />}
       content={runningContent}
     >
       <form onSubmit={handleSubmit} className="calculator-form">
