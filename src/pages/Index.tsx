@@ -6,8 +6,8 @@ import Footer from '../components/Footer';
 import CalculatorCard from '../components/CalculatorCard';
 import { 
   PersonStanding as WalkingIcon, 
-  // The correct icon name for running in Lucide is 'PersonRunning'
-  PersonRunning as RunningIcon, 
+  // The correct icon for running in Lucide is 'Run'
+  Run as RunningIcon, 
   Bike as CycleIcon, 
   Waves as SwimmingIcon, 
   Dumbbell, 
