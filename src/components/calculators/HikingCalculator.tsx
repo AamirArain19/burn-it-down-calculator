@@ -252,9 +252,9 @@ const HikingCalculator = () => {
             <p className="font-medium">You burn approximately:</p>
             <p className="text-2xl font-bold text-primary">{calories} calories</p>
             <p className="text-xs text-gray-500 mt-2">
-              {difficulty === 'mountaineering' ? 
-                'Mountaineering is extremely demanding - make sure you're properly prepared!' : 
-                'Remember to stay hydrated and pack nutritious snacks for your hike!'}
+              {difficulty === 'mountaineering' 
+                ? "Mountaineering is extremely demanding - make sure you're properly prepared!" 
+                : "Remember to stay hydrated and pack nutritious snacks for your hike!"}
             </p>
           </div>
         )}
