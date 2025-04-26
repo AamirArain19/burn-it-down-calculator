@@ -7,7 +7,7 @@ import CalculatorCard from '../components/CalculatorCard';
 import { 
   PersonStanding as WalkingIcon, 
   PersonRunning as RunningIcon, 
-  Bicycle as CycleIcon, 
+  Bike as CycleIcon, 
   Waves as SwimmingIcon, 
   Dumbbell, 
   Activity as ActivityIcon, 
