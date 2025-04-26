@@ -6,8 +6,8 @@ import Footer from '../components/Footer';
 import CalculatorCard from '../components/CalculatorCard';
 import { 
   PersonStanding as WalkingIcon, 
-  // The correct icon for running in Lucide is 'Running'
-  Running as RunningIcon, 
+  // We need to use an icon that actually exists in lucide-react
+  Activity as RunningIcon, 
   Bike as CycleIcon, 
   Waves as SwimmingIcon, 
   Dumbbell, 
