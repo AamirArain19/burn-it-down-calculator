@@ -10,7 +10,7 @@ import {
   Bike as CycleIcon, 
   Waves as SwimmingIcon, 
   Dumbbell, 
-  Activity as ActivityIcon, 
+  Activity, 
   Smile as YogaIcon, 
   Home, 
   Mountain,
@@ -57,7 +57,7 @@ const Index = () => {
     {
       title: 'HIIT vs. Steady-State Calculator',
       description: 'Compare calorie burn between intense intervals and continuous cardio.',
-      icon: ActivityIcon,
+      icon: Activity,
       path: '/hiit',
     },
     {
@@ -411,7 +411,7 @@ const Index = () => {
           </div>
         </section>
 
-        {/* Benefits section - keeping original section */}
+        {/* Benefits section */}
         <section className="py-16">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold text-center mb-12">Why Track Calories Burned?</h2>
