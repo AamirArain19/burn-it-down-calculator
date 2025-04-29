@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Header from '../components/Header';
@@ -97,7 +98,7 @@ const Index = () => {
             <div className="max-w-3xl mx-auto text-center">
               <h1 className="text-4xl md:text-5xl font-bold mb-4">Burn Calorie Calculator</h1>
               <p className="text-xl mb-8">
-                Accurately track calories burned across 10 different activities
+                Accurately track calories burned across different activities
               </p>
               <a 
                 href="#calculators" 
