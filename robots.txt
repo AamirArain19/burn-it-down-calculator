@@ -1,6 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /private/
-Disallow: /tmp/
-
-Sitemap: https://caloriesburnedcalculator.netlify.app/sitemap.xml
