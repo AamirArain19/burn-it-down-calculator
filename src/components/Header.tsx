@@ -9,7 +9,7 @@ const Header = () => {
       <div className="container mx-auto flex items-center justify-between px-4">
         <Link to="/" className="flex items-center gap-2">
           <Calculator className="h-8 w-8 text-white" />
-          <h1 className="text-2xl font-bold text-white">BurnCalc</h1>
+          <h1 className="text-2xl font-bold text-white">Calorie Calculator</h1>
         </Link>
         <nav>
           <ul className="flex space-x-6">
